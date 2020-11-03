@@ -1,0 +1,23 @@
+{
+  "name": "m",
+  "version": "1.0.0",
+  "description": "This is npm for node assesment",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mohitmau/Node_assesment.git"
+  },
+  "author": "Mohit Maharjan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mohitmau/Node_assesment/issues"
+  },
+  "homepage": "https://github.com/mohitmau/Node_assesment#readme",
+  "dependencies": {
+    "axios": "^0.21.0"
+  }
+}

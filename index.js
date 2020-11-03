@@ -51,3 +51,14 @@ let async_await_festival_list = async (festivals) => {
 
 async_await_festival_list(festivals);
 
+const {promiseReadFile} = require('./assesment/readFileFestival.js');
+
+promiseReadFile('./test_file/example.json', 'utf8').then((data) => {
+    let parsedData = JSON.parse(data);
+    parsedData.forEach((k,i) => {
+        console.log(i+1 + '.'+ '  ' + k)
+    });
+    // console.log("File content: ", data);
+}).catch(err => {
+    console.log("Error: ", err);
+})
